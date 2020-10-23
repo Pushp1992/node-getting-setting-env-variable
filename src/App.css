@@ -1,7 +1,18 @@
-.App {
-  text-align: center;
+
+.key {
+  display: inline-block;
 }
 
+.value {
+  display: inline-block;
+  justify-content: right;
+}
+
+.inputStyle {
+  width: 14rem;
+  padding: 1rem;
+  font-size: larger;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -16,11 +27,11 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* display: block; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(3px + 2vmin);
   color: white;
 }
 
